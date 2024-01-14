@@ -11,6 +11,7 @@
     padding: 30px 100px;
     background-color: #fff4e7 ;
     justify-content: center;
+    border: 1px solid red;
 
 }
 .nav{
@@ -19,6 +20,7 @@
     align-items: center;
     margin: 10px 20px;
     width: 100%;
+    border: 1px solid red;
 }
 .nav li{
     list-style: none;
@@ -39,6 +41,7 @@
     max-width: 800px;
     text-align: center;
     margin: 0px auto;
+    border: 1px solid red;
 }
 .banner1-title h1{
     font-size: 4rem;
@@ -53,6 +56,7 @@
     align-items: center;
     margin: 20px auto;
     width: 90%;
+    border: 1px solid red;
 }
 .banner1-img img{
     width: 100%;
@@ -74,3 +78,27 @@
     background-color: #ff900e;
     margin: 25px;
 }
+@media screen and (max-width: 576px){
+    .nav{
+        flex-direction: column;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .nav-title{
+        font-size: 2rem;        
+    }
+    .header{
+        padding: 15px 20px;
+    }
+    .banner1-title> h1{
+        font-size: 3.5rem;
+    }
+    .banner1-img{
+        width: 100%;
+    }
+    .bann1-btn{
+        width: 100px;
+        height: 38px;
+        font-size: .75rem;
+    }
+}   
