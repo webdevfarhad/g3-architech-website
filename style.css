@@ -11,7 +11,7 @@
     padding: 30px 100px;
     background-color: #fff4e7 ;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 .nav{
@@ -20,7 +20,7 @@
     align-items: center;
     margin: 10px 20px;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .nav li{
     list-style: none;
@@ -41,7 +41,7 @@
     max-width: 800px;
     text-align: center;
     margin: 0px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .banner1-title h1{
     font-size: 4rem;
@@ -56,16 +56,16 @@
     align-items: center;
     margin: 20px auto;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .banner1-img img{
     width: 100%;
     margin: 20px auto;
 }
-.text-sec{
+.bann1-text-sec{
     align-items: center;
     width: 700px;
-    margin: 100px auto 20px
+    margin: 100px auto 20px;
 }
 .bann1-btn{
     color: #fff4e7;
@@ -78,7 +78,14 @@
     background-color: #ff900e;
     margin: 25px;
 }
+
+/* Responsive for 1st breakpoint 576px */
+
+
 @media screen and (max-width: 576px){
+    .header{
+        padding: 15px 20px;
+    }
     .nav{
         flex-direction: column;
         text-align: center;
@@ -87,11 +94,16 @@
     .nav-title{
         font-size: 2rem;        
     }
-    .header{
-        padding: 15px 20px;
+    .banner1-title{
+        margin-top: 50px auto;
     }
     .banner1-title> h1{
         font-size: 3.5rem;
+    }
+    .bann1-text-sec{
+        align-items: center;
+        width: 240px;
+        margin: 70px auto;
     }
     .banner1-img{
         width: 100%;
