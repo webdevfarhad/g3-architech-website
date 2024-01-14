@@ -25,6 +25,7 @@
 .nav li{
     list-style: none;
     margin: 15px;
+    color: black;
 
 }
 .nav > ul{
@@ -32,6 +33,7 @@
 }
 .nav a{
     text-decoration: none; 
+    color: black;
 }
 .nav-title{
     font-size: 2.5rem;
